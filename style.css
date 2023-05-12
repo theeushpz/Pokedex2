@@ -1,0 +1,203 @@
+/*************************************************************/
+/*grid*/
+
+body{
+    background-image: url();
+    height: 400px;
+    width: 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 25px;
+    grid-auto-rows: 300px;
+    justify-content: center;
+}
+
+
+.border{
+    border-radius: 15px;
+}
+
+
+/*************************************************************/
+
+/*imagens e logo*/
+
+img{
+    width: 160px;
+    height: 160px;
+}
+
+#img_logo{
+    width: 350px;
+}
+
+#img_logo2{
+    width: 140px;
+  
+}
+
+
+/*************************************************************/
+/*Card*/
+
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: whitesmoke;
+    position: relative;
+    padding: 1.0rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+}
+
+.card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.card-button {
+    transform: translate(-50%,125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #F5F54C;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    color: black;
+}
+
+.text-body {
+    color: black;
+}
+
+
+/*texto*/
+
+.text-title {
+    font-size: 0em;
+    font-weight: bold;
+
+}
+
+/*hover*/
+
+.card:hover {
+    border-color: #F4FC00;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button{
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+
+
+/*************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*tipos pokemon*/
+
+.type_grass{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.952),#B9E0A5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type_fire{
+    background-color: #FFCE9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type_water{
+    background-color: #D5E8D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type_bug{
+    background-color: #3fa13a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boxlogo{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+. {
+
+}
+
+.box 2 {
+    
+}
+
+.box 3 {
+    
+}
+
+.box 4 {
+    
+}
+
+.box 5 {
+    
+}
+
+.box 6 {
+    
+}
+
+.box 7 {
+    
+}
+
+.box 8 {
+    
+}
+
+.box 9 {
+    
+}
+
